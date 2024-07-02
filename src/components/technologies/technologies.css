@@ -1,0 +1,14 @@
+
+.technologies{
+  gap: 2rem;
+}
+
+.technologies-content{
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.item{
+  padding: 0.6rem 0.8rem;
+  border: 2px solid rgb(48, 48, 48);
+  border-radius: 5px;
+}

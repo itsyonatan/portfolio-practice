@@ -1,0 +1,39 @@
+.experience{
+  gap: 2rem;
+}
+
+.experience-content{
+  gap: 2rem;
+}
+.experience-content .experience-card{
+  gap: 2rem;
+}
+.experience-content .experience-year{
+  font-size: 1rem;
+}
+.experience-card .experience-details{
+  max-width: 500px;
+  text-align: left;
+  gap: 0.8rem;
+}
+.experience-card .experience-details .role{
+  color: var(--white);
+}
+.experience-card .experience-details .discription{
+  font-size: 0.9rem;
+}
+.technologies .technology-item{
+  color: purple;
+  background-color: #0b1733;
+  padding: 0.2rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 900px) {
+  .experience-content .experience-card{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8rem;
+  }
+}

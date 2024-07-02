@@ -1,0 +1,40 @@
+.about{
+  gap: 2rem;
+}
+
+.about-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/*  --- left-content  ---  */
+
+.about-content .left-content {
+  max-width: 320px;
+  border-radius: 8px;
+}
+
+.about-content .left-content img {
+  border-radius: 12px;
+}
+
+/*  --- right-content  ---  */
+
+.about-content .right-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    
+  }
+}

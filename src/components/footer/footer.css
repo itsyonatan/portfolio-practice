@@ -1,0 +1,15 @@
+.footer{
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (min-width: 900px) {
+  .footer{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

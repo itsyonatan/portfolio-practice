@@ -1,0 +1,40 @@
+.projects{
+  gap: 2rem;
+}
+
+.projects-content{
+  gap: 2rem;
+}
+.projects-content .projects-card{
+  gap: 2rem;
+}
+.projects-content .projects-image img{
+  max-width: 8rem;
+  border-radius: 6px;
+}
+.projects-card .projects-details{
+  max-width: 500px;
+  text-align: left;
+  gap: 0.8rem;
+}
+.projects-card .projects-details .title{
+  color: var(--white);
+}
+.projects-card .projects-details .discription{
+  font-size: 0.9rem;
+}
+.technologies .technology-item{
+  color: purple;
+  background-color: #0b1733;
+  padding: 0.2rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 900px) {
+  .projects-content .projects-card{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8rem;
+  }
+}

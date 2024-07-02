@@ -1,0 +1,50 @@
+.hero{
+  gap: 2rem;
+}
+.hero-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 2rem 5rem 2rem;
+}
+
+/*   ---  left-content   ---*/
+
+.hero-content .left-content{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.hero-content .left-content h1{
+  margin-bottom: 1.6rem;
+  font-size:  2rem;
+}
+.hero-content .left-content h2{
+  margin-bottom: 1.6rem;
+  font-size:  1.5rem;
+}
+.hero-content .left-content p{
+  text-align: start;
+}
+
+/*  --- right-content  ---  */
+
+.hero-content .right-content{
+  max-width: 350px;
+  border-radius: 8px;
+}
+.hero-content .right-content img{
+  border-radius: 12px;
+}
+
+@media (min-width: 900px) {
+  .hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 6rem;
+  }
+}
