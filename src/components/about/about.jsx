@@ -1,5 +1,5 @@
 import "./about.css"
-import { ABOUT_TEXT } from "../../constants/index.js"
+import { ABOUT_TEXT, pictures } from "../../constants/index.js"
 import { motion } from "framer-motion"
 export default function About() {
 
@@ -12,7 +12,7 @@ export default function About() {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
           className="left-content">
-          <img src="src\assets\about.jpg" alt="about" />
+          <img src={pictures.aboutPic} alt="about" />
         </motion.div>
         <motion.div
           initial={{ x: 100, opacity: 0 }}

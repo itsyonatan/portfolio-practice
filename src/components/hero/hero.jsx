@@ -1,6 +1,6 @@
 import "./hero.css"
 import Nav from "../nav/nav"
-import { HERO_CONTENT } from "../../constants/index"
+import { HERO_CONTENT, pictures } from "../../constants/index"
 import { motion } from "framer-motion"
 
 export default function Hero() {
@@ -43,8 +43,8 @@ export default function Hero() {
           animate={{ opacity: 1, x: [100, 0, 5, 0] }}
           transition={{ duration: 1.5, delay: 1, ease: "linear" }}
           className="right-content">
-          <img src="src\assets\yoniProfile.jpg" alt="profilePic" />
-        </motion.div>
+          <img src={pictures.profilePic} alt="profilePic" />
+        </motion.div> 
       </div>
     </div >
   )
