@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.657b52f6.css",
+    "main.js": "/portfolio/static/js/main.8b81d6ee.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/yoniProfile.jpg": "/portfolio/static/media/yoniProfile.49ffddad5a949ef0c217.jpg",
+    "static/media/project-3.jpg": "/portfolio/static/media/project-3.d40ef9bdb47609537921.jpg",
+    "static/media/about.jpg": "/portfolio/static/media/about.2980bcbe5d8c7053b586.jpg",
+    "static/media/project-2.jpg": "/portfolio/static/media/project-2.1163c0a4ffbe03d987cf.jpg",
+    "static/media/project-1.jpg": "/portfolio/static/media/project-1.3d0152105bd6b879e610.jpg",
+    "static/media/ya-high-resolution-logo-transparent.png": "/portfolio/static/media/ya-high-resolution-logo-transparent.76c6a932e791a531b5ac.png",
+    "static/media/project-4.jpg": "/portfolio/static/media/project-4.cee9d1175731475a650f.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.657b52f6.css.map": "/portfolio/static/css/main.657b52f6.css.map",
+    "main.8b81d6ee.js.map": "/portfolio/static/js/main.8b81d6ee.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.657b52f6.css",
+    "static/js/main.8b81d6ee.js"
+  ]
+}
